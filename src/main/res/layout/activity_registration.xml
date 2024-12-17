@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz App"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background" />
+
+    <EditText
+        android:id="@+id/school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="School"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background" />
+
+    <Spinner
+        android:id="@+id/grade_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background" />
+
+    <Spinner
+        android:id="@+id/gender_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp" />
+
+    <Spinner
+        android:id="@+id/country_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:padding="12dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
