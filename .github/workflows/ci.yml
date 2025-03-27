@@ -22,6 +22,9 @@ jobs:
         with:
           node-version: '16' # Specify the Node.js version
 
+      - name: Navigate to app directory
+        run: cd app
+
       - name: Install dependencies
         run: npm install
 
